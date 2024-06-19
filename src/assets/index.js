@@ -35,10 +35,19 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import Javas from './collaboration/Javas.png'
+import csspic from './collaboration/csspic.png'
+import htmlpic from './collaboration/htmlpic.png'
+import reactpic from './collaboration/reactpic.png'
+import nodepic from './collaboration/nodepic.png'
+import mongopic from './collaboration/mongopic.png'
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import refine from './services/refine.gif'
+import shirt from './services/shirt.png'
+import sitegram from './services/sitegram.png'
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -144,4 +153,13 @@ export {
   instagram,
   telegram,
   twitter,
+  Javas,
+  csspic,
+  nodepic,
+  mongopic,
+  htmlpic,
+  reactpic,
+  refine,
+  sitegram,
+  shirt
 };

@@ -9,7 +9,6 @@ import {
   discord,
   discordBlack,
   facebook,
-  figma,
   file02,
   framer,
   homeSmile,
@@ -17,11 +16,7 @@ import {
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -29,45 +24,38 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  Javas,
+  reactpic,
+  htmlpic,
+  csspic,
+  nodepic,
+  mongopic
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "About",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Projects",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Skills",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Contact",
     url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
   },
 ];
 
@@ -78,9 +66,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Fully responsive",
+  "Drag and Drop feature",
+  "Full CRUD system",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,36 +116,36 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Leveraging cutting-edge AI technologies, I specialize in creating intuitive solutions that enhance productivity and efficiency, tailored to meet the unique needs of diverse teams.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Innovative Problem Solving",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "User-Centric Design",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Expertise in Frontend Development",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "JavaScript",
+    icon: Javas,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "React",
+    icon: reactpic,
     width: 34,
     height: 36,
   },
@@ -170,22 +158,22 @@ export const collabApps = [
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "mongo",
+    icon: mongopic,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "HTML",
+    icon: htmlpic,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "CSS",
+    icon: csspic,
     width: 34,
     height: 34,
   },
@@ -198,48 +186,13 @@ export const collabApps = [
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Node",
+    icon: nodepic,
     width: 38,
     height: 32,
   },
 ];
 
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-];
 
 export const benefits = [
   {
