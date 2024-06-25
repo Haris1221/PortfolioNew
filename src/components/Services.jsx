@@ -10,7 +10,7 @@ import {
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="Projects">
       <div className="container">
         <Heading
           title="My Projects"
@@ -33,6 +33,10 @@ const Services = () => {
               <p className="body-2 mb-[3rem] text-n-3">
               A Dashboard of companies and tasks to keep track of your todo list, made with refine, GraphQL, nextJS, typeScript, ant-design, and more. 
               </p>
+              <div className="flex gap-5 flex-row mb-1 underline">
+                <a href="https://github.com/Haris1221/RefineDashboard">Learn More</a>
+                <a href="https://refine-dashboard-two.vercel.app/">Live Site</a>
+              </div>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
@@ -65,6 +69,10 @@ const Services = () => {
                 <p className="body-2 mb-[3rem] text-n-3">
                 Apply any color to the 3D shirt/swag for personalized styling or Ask the AI to add certain styles to the shirt instead!. Made using ThreeJs, Tailwind CSS, and ReactJs.
                 </p>
+                <div className="flex gap-5 flex-row mb-1 underline">
+                <a href="https://github.com/Haris1221/3DShirt">Learn More</a>
+                <a href="https://3dshirt-nine.vercel.app/">Live Site</a>
+              </div>
               </div>
 
               <PhotoChatMessage />
@@ -76,7 +84,10 @@ const Services = () => {
                 <p className="body-2 mb-[2rem] text-n-3">
                   A FullStack social media Instagram like app. made using Vite, Appwrite, ReactJS, TypeScript, and Tailwins CSS.
                 </p>
-
+                <div className="flex gap-5 flex-row mb-1 underline">
+                <a href="https://github.com/Haris1221/SiteGram">Learn More</a>
+                <a href="https://sitegram.vercel.app/">Live Site</a>
+              </div>
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
